@@ -9,4 +9,3 @@ def display_board(board)
   puts "-----------"
   puts " #{board[x+6]} | #{board[x+7]} | #{board[x+8]} "
 end
-
