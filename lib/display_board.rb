@@ -4,3 +4,8 @@
 def display_board(board)
   x=0
   puts " #{board[x]} | #{board[x++]} | #{board[x++]} "
+  puts "-----------"
+  puts " #{board[x]} | #{board[x++]} | #{board[x++]} "
+  puts "-----------"
+  puts " #{board[x]} | #{board[x++]} | #{board[x++]} "
+end
